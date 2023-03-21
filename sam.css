@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-container {
+  margin-left: 10%;
+  margin-top: 2.8%;
+}
+.menubtn {
+  margin-right: 8%;
+  margin-top: 2.8%;
+}
+.logo {
+  height: 29px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.bx.bx-menu {
+  color: #000000;
+  font-size: 33px;
+}
+
+img.su {
+  height: 1.8125rem;
+  width: 1.15875rem;
+  margin-right: 0.3rem;
+}
+
+img.s {
+  width: 0.73rem;
+  height: 1.465625rem;
+}
+
+img.u {
+  width: 0.73rem;
+  height: 1.465625rem;
+}
+
+img.p {
+  width: 0.74875rem;
+  height: 1.4525rem;
+}
+
+img.e {
+  width: 0.62625rem;
+  height: 1.439375rem;
+}
+
+img.r {
+  width: 0.62625rem;
+  height: 1.439375rem;
+}
+
+img.l {
+  width: 0.60125rem;
+  height: 1.439375rem;
+}
+
+img.a {
+  width: 0.60125rem;
+  height: 1.439375rem;
+}
+
+img.t {
+  width: 0.678125rem;
+  height: 1.439375rem;
+}
+
+img.i {
+  width: 0.32rem;
+  height: 1.439375rem;
+}
+
+img.v {
+  width: 0.84625rem;
+  height: 1.439375rem;
+}
+
+.desc {
+  margin-left: 10%;
+  margin-right: 8%;
+  display: grid;
+  padding-top: 5%;
+}
+.sam {
+  color: #ed1c24;
+}
+.samdesc {
+  padding-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.03rem;
+  line-height: 20px;
+  text-align: justify;
+  color: #000000;
+}
+hr {
+
+  margin-top: 10%;
+  width: 50px;
+  border: 2px solid #000000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.samimages {
+  padding-top: 40px;
+  /* border: 2px solid red; */
+}
+
+.sam-one, .sam-three, .sam-four, .sam-five {
+    /* border: 2px solid red; */
+    display: flex;
+  margin: 8px 8% 0 10%;
+}
+
+
+.samsecond {
+    /* border: 2px solid rgb(23, 202, 20); */
+  padding-left: 8px;
+  width: 100vh;
+}
+img {
+    height: 100%;
+  width: 100%;
+}
+.sam-two {
+    padding-top: 8px;
+  margin-left: 10%;
+  margin-right: 8%;
+height: 85vh;
+}
+
+.samfifth{
+    padding-left: 8px;
+}
+.sam-six{
+    display: grid;
+    grid: auto / auto auto ;
+    margin: 8px 8% 0 10%;
+}
+
+.samseventh, .samnine {
+    padding-left: 8px;
+}
+.samten{
+    padding-right: 8px;
+}
+.samtwelve, .samthirteen{
+    padding-top: 8px;
+}
+.samtwelve{
+    padding-right: 8px;
+}
+
+.talk {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 3rem;
+  padding-right: 9.9375%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.talk .project {
+  margin-left: 8%;
+}
+
+.talk .project h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  /* identical to box height */
+
+  /* text-align: center; */
+
+  color: #000000;
+}
+
+.talk .project h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  /* line-height: 60px; */
+  /* text-align: center; */
+  color: #000000;
+}
+
+.talk .letstalk {
+  /* display: inline-block;
+    position: relatve; */
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 5% 20px 0;
+}
+
+/* .talk .letstalk img {
+    padding-top: 30px;
+    height: 150px;
+    width: 160px;
+} */
+
+.letstalk .dont-talk {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 39px; */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.letstalk:hover {
+  cursor: pointer;
+}
+footer {
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.footercontent {
+  display: flex;
+  justify-content: space-between;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+.firsttext {
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.secondtext {
+  margin-top: 50px;
+  margin-left: 22%;
+  line-height: 25px;
+}
+
+.secondtext h3 {
+  padding-top: 2rem;
+  color: #f3f3f3;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.thirdtext {
+  margin-top: 50px;
+  margin-right: 8%;
+}
+
+.soso {
+  padding-top: 1.7rem;
+  color: #f3f3f3;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.secondtext p,
+.thirdtext p {
+  /* border: 2px solid black; */
+  margin-top: 3%;
+}
+
+.footericons {
+  display: flex;
+  font-size: 1.7rem;
+  letter-spacing: 14px;
+  padding-top: 0.5rem;
+  /* background: white; */
+}
+
+.footerlast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  /* background: white; */
+}
+
+
+/* media queries starts from here
+@media (max-width: 575px) {
+    .logo {
+      display: block;
+    }
+    .menubtn {
+      display: block;
+    }
+    .desc {
+      padding: 20px;
+    }
+    .samdesc {
+      font-size: 16px;
+    }
+    
+    .talk {
+      text-align: center;
+    }
+    .project {
+      margin-bottom: 20px;
+    }
+    .letstalk {
+      margin-bottom: 20px;
+    }
+    .dont-talk {
+      font-size: 40px;
+    }
+  }
+
+  /* Styles for medium screens */
+  /* @media (min-width: 576px) and (max-width: 991px) {
+    .logo {
+      display: block;
+    }
+    .menubtn {
+      display: none;
+    }
+    .samdesc {
+      font-size: 18px;
+    }
+    .samimages {
+      display: none;
+    }
+    .talk {
+      text-align: center;
+    }
+    .project {
+      margin-bottom: 20px;
+    }
+    .letstalk {
+      margin-bottom: 20px;
+    }
+    .dont-talk {
+      font-size: 50px;
+    }
+  } */
+
+  /* Styles for large screens */
+  /* @media (min-width: 992px) {
+    .logo {
+      display: block;
+    }
+    .menubtn {
+      display: none;
+    }
+    .desc {
+      padding: 50px 0;
+    }
+    .samdesc {
+      font-size: 20px;
+    }
+    .samimages {
+      display: block;
+    }
+    .sam-one {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .samfirst {
+      flex: 1;
+    }
+    .samsecond {
+      flex: 1;
+    }
+    .sam-two {
+      text-align: center;
+    }
+    .sam-three {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .samforth {
+      flex: 1;
+    }
+    .samfifth {
+      flex: 1;
+    }
+    .sam-four {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .samsixth {
+      flex: 1;
+    }
+    .samseventh {
+      flex: 1;
+    }
+    .sam-five {
+      display: flex;
+      flex-wrap: wrap;
+    }} */ 
